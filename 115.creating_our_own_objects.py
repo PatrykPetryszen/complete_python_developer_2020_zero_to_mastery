@@ -16,3 +16,5 @@ print(player1)
 print(player2.name)
 print(player2.age)
 print(player2.attack)
+
+#When function doesn't return anything it gives us None
