@@ -1,9 +1,10 @@
 #OOP
+#To instantiate is to create an instance of an object
 class PlayerCharacter:
     # Class Object Attribute
     membership = True
-    def __init__(self, name, age):
-      if (PlayerCharacter.membership):
+    def __init__(self, name='anonymous', age=0):
+      if (age > 18):
         self.name = name # attributes
         self.age = age # self. refers to the class PlayerCharacter
 
