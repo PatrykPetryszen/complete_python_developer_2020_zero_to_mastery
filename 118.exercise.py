@@ -1,16 +1,17 @@
 #Given the below class:
 class Cat:
     species = 'mammal'
-    def __init__(self, name, age):
+    def __init__(self, name, age, gender):
         self.name = name
         self.age = age
+        self.gender = gender
 
 
 # 1 Instantiate the Cat object with 3 cats
 
-Filemon = Cat('Filemon', 2)
-Garfield = Cat('Garfield', 3)
-Nijok = Cat('Nijok', 5)
+Filemon = Cat('Filemon', 2, 'male')
+Garfield = Cat('Garfield', 3, 'male')
+Nijok = Cat('Nijok', 5, 'female')
 
 # 2 Create a function that finds the oldest cat
 
