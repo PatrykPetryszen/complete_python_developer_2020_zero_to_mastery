@@ -7,7 +7,7 @@ class PlayerCharacter(): #We don't need to use () if we are not inheriting
     #     print('run')
 
     def speak(self):
-        print(f'my name is {self.name}, and I am {self.age} years old')
+        print(f'my name is {self._name}, and I am {self._age} years old')
 
 player1 = PlayerCharacter('patryk', 26)
 player1.name = '!!!'
