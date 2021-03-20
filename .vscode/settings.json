@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "python.linting.pylintEnabled": true,
     "python.linting.pylamaEnabled": false,
     "python.linting.enabled": true
+=======
+    "python.pythonPath": "C:\\Users\\Bambo\\AppData\\Local\\Programs\\Python\\Python39\\python.exe"
+>>>>>>> e3d59564f756efbe2506f128bba15f0736a49485
 }
